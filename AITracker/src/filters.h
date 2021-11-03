@@ -42,3 +42,15 @@ public:
 
 	void filter(float* in_array, float* out_array);
 };
+
+
+// TODO: finish implementing OneEuro Filter for motion
+class OEFilter : public IFilter
+{
+private: 
+
+public:
+	OEFilter();
+	~OEFilter();
+	void filter();
+};
